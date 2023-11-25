@@ -1,3 +1,6 @@
+## CHANGELOG
+Version 5 unlocks the ability to use multiple threads and multiple cores, providing super-fast conversion capabilities.
+
 # MP4 to MP3 Converter
 
 This script converts all MP4 files in a specified folder to MP3 format using the ffmpeg library. It provides a simple and efficient way to convert multiple MP4 files to MP3 files in bulk.
@@ -24,7 +27,7 @@ Before running the script, make sure you have the following prerequisites instal
 2. Navigate to the directory where the script is located.
 3. Run the following command to convert the MP4 files in the current directory to MP3:
    ```
-   python mp4tomp3_ver3.py
+   python mp4tomp3_ver5.py
    ```
    The script will convert all the MP4 files in the current directory and save the resulting MP3 files in the same location.
 
@@ -32,7 +35,7 @@ Before running the script, make sure you have the following prerequisites instal
 
 ## Customization
 
-You can customize the script behavior by modifying the following variables in the `mp4tomp3_ver3.py` file:
+You can customize the script behavior by modifying the following variables in the `mp4tomp3_ver5.py` file:
 
 - `folder`: Specify the folder path where the MP4 files are located. By default, it uses the current working directory.
 
